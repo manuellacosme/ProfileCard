@@ -42,6 +42,7 @@ h1 {
 h1 span {
     color: hsl(227, 10%, 46%);
     font-weight: 400;
+    line-height: 2.0;
 }
 
 .city {
