@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", Arial, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 34.5vh, left 48vw top 52vh;
+}
+
+/*PROFILE*/
+
+.card-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container {
+    margin-top: -60px;
+    background-color: white;
+    text-align: center;
+    border-radius: 4%;
+    padding-bottom: 25px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    position: relative;
+}
+
+h1 {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+
+h1 span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+.city {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: ridge;
+    border-color: hsl(0, 1%, 85%);
+}
+
+
+/*TABLE*/
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+.line-1 {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+.line-2 {
+    font-size: 10px;
+    color: hsl(227, 10%, 46%);
+}
